@@ -16,11 +16,15 @@
   z-index: -1;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
 #newsletter {
   height: 500px;
   width: 950px;
-  margin-left: 15%;
-  margin-top: 5%;
+  margin-top: 40px;
 } 
 
 #nav, #footer {
