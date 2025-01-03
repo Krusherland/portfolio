@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Nixie+One&family=Romanesco&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Romanesco", serif;//
+    //font-family: "Arbutus Slab", serif;//
+    //font-family: "Nixie One", serif;//*/
+}
+
+.backgroundVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+#newsletter {
+  height: 500px;
+  width: 950px;
+  margin-left: 15%;
+  margin-top: 5%;
+} 
+
+#nav, #footer {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+  p {
+    margin-right: 10px;
+    margin-top: 10px;
+    font-family: "Nixie One", serif;
+    font-size: 20px;
+  }
+}
+
+.profileIcon img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#center {
+  background-color: rgb(141, 170, 189);
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile {
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+  text-align: center;
+  h1 {
+    font-family: "Arbutus Slab", serif;
+    font-size: 25px;
+  }
+  p {
+    font-family: "Nixie One", serif;
+    font-style: oblique;
+    font-weight: bold;
+  }
+}
+
+.profileIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    width: 120px;
+    animation: 
+    pulse-animation 2s infinite,
+    move-animation 2s infinite 2s alternate;
+  }
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 30px rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes move-animation {
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+.aboutMe img{
+  width: 200px;
+  border-radius: 20px;
+}
+
+.screen {
+  margin-top: 10px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  h2 {
+    font-family: "Arbutus Slab", serif;
+    font-size: 25px;
+  }
+  p {
+    font-family: "Nixie One", serif;
+    font-style: oblique;
+    font-weight: bold;
+  }
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 16px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  text-align: center;
+  img {
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  a {
+    font-size: 25px;
+  }
+}
+
+.devStack {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.stack {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.stackItem img {
+  width: 100px;
+  height: 100px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+}
+
+.social img {
+  width: 100px;
+  height: 100px;
+}
+
+.features {
+  background-color: rgb(141, 170, 189);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+
+.button-74 {
+  font-family: "Arbutus Slab", serif;
+  background-color: #fbeee0;
+  border: 2px solid #0f3b9b;
+  border-radius: 30px;
+  box-shadow: #0f3b9b 4px 4px 0 0;
+  color: #0f3b9b;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 0 15px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
