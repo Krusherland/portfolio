@@ -4,8 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "Romanesco", serif;//
-    //font-family: "Arbutus Slab", serif;//
+  /* //font-family: "Arbutus Slab", serif;//
     //font-family: "Nixie One", serif;//*/
 }
 
@@ -24,7 +23,7 @@ body {
 #newsletter {
   height: 500px;
   width: 950px;
-  margin-top: 40px;
+  margin-top: 50px;
 } 
 
 #nav, #footer {
@@ -145,6 +144,9 @@ body {
     margin-bottom: 20px;
   }
   h2 {
+    font-family: "Nixie One", serif;
+    font-weight: bold;
+    font-style: italic;
     font-size: 20px;
   }
   a {
@@ -156,6 +158,11 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  font-family: "Arbutus Slab", serif;
+  font-weight: bold;
+  h3 {
+    font-size: 40px;
+  }
 }
 
 .stack {
@@ -176,6 +183,8 @@ body {
   text-align: center;
   gap: 10px;
   padding-bottom: 10px;
+  font-family: "Arbutus Slab", serif;
+  font-weight: bold;
 }
 
 .socials {
