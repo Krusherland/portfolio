@@ -17,11 +17,15 @@
     <link rel="shortcut icon" href="./Assets/favicon.ico" />
     <link rel="stylesheet" href="./Style/style.css" />
   </head>
-  <body>
+  <body class="darkMode">
     <main>
       <video class="backgroundVideo" autoplay loop muted>
         <source src="./Assets/background video.mov" />
       </video>
+      <button id="darkModeButton">
+        <img src="./Assets/cloudy.png" width="60px">
+        <img src="./Assets/half-moon.png" width="60px">
+      </button>
       <section class="card border-dark mb-3" id="newsletter">
         <div class="card-header" id="nav">
           <p>newsLetter</p>
@@ -53,8 +57,8 @@
                       <div>
                         <h2>About me</h2>
                         <p>
-                          My name is Cristian and I'm an English teacher and a
-                          front end developer
+                          Hey there, my name is Cristian! I'm an English teacher and a
+                          front-end developer.
                         </p>
                         <p>
                           I'm currently studying to become a Systems Analyst
@@ -248,5 +252,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="./JavaScript/darkMode.js"></script>
   </body>
 </html>
