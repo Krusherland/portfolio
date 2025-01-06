@@ -88,7 +88,7 @@ body {
 
 @media screen and (max-width: 768px){
   #newsletter {
-    width: 500px;
+    width: 450px;
     margin-top: 100px;
   }
 }
@@ -112,7 +112,6 @@ body {
 }
 
 .profileIcon img {
-  width: 100px;
   border-radius: 50%;
   margin-bottom: 20px;
 }
@@ -153,6 +152,17 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .profile {
+    width: 100%;
+    padding-top: 20px;
+    h1 {
+      font-size: 40px;
+    }
+    font-size: 30px;
+  }
+}
+
 .profileIcon {
   display: flex;
   flex-direction: column;
@@ -161,6 +171,14 @@ body {
     width: 120px;
     animation: pulse-animation 2s infinite,
       move-animation 2s infinite 2s alternate;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profileIcon {
+    img {
+      width: 200px;
+    }
   }
 }
 
@@ -202,6 +220,12 @@ body {
     font-family: "Nixie One", serif;
     font-style: oblique;
     font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .screen {
+    padding-top: 20px;
   }
 }
 
@@ -309,6 +333,9 @@ body {
   .contact {
     flex-direction: column;
     align-items: center;
+    h3 {
+      font-size: 40px;
+    }
   }
 }
 
@@ -344,6 +371,7 @@ body {
     flex-direction: column;
     gap: 15px;
     align-items: center;
+    padding-top: 15px;
   }
 }
 
@@ -378,6 +406,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .button-74 {
-    width: 200px;
+    width: 280px;
+    font-size: 20px;
   }
 }
