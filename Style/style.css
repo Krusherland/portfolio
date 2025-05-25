@@ -20,26 +20,10 @@
   --icon-animation-color: none;
 }
 
-.backgroundVideo {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-}
-
-@media screen and (max-width: 768px)
-{
-  .backgroundVideo {
-    display: none;
-  }
-  body {
-    background-color: #011320;
-  }
-}
-
 body {
   display: flex;
   justify-content: center;
+  background-color: #011320;
 }
 
 .darkMode {
@@ -92,12 +76,6 @@ body {
     margin-top: 100px;
   }
 }
-
-main {
-  background-image: url(./assets/background.jpg);
-  background-size: cover;
-}
-
 
 #nav,
 #footer {
