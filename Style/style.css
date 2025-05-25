@@ -93,6 +93,12 @@ body {
   }
 }
 
+main {
+  background-image: url(./assets/background.jpg);
+  background-size: cover;
+}
+
+
 #nav,
 #footer {
   background-color: var(--nav-footer-color);
